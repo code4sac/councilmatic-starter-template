@@ -44,6 +44,7 @@ INSTALLED_APPS = (
     'councilmatic_core',
     'opencivicdata.core',
     'opencivicdata.legislative',
+    'adv_cache_tag'
 )
 
 try:
