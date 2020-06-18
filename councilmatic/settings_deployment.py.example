@@ -15,8 +15,9 @@ DEBUG = False
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': 'chi_councilmatic',
-        'USER': '',
+        'NAME': 'opencivicdata',
+        'HOST': 'postgresql',
+        'USER': 'pupa',
         'PASSWORD': '',
         'PORT': 5432,
     }
