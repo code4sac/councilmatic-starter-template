@@ -59,7 +59,7 @@ MAP_CONFIG = {
 
 FOOTER_CREDITS = [
     {
-        'name':     'Code4Sac', # e.g. 'DataMade'
+        'name':     'Code For Sacramento', # e.g. 'DataMade'
         'url':      'https://codeforsacramento.org/', # e.g. 'http://datamade.us'
         'image':    'codeforsac-logo.png', # e.g. 'datamade-logo.png'
     },
