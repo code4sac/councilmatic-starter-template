@@ -59,9 +59,9 @@ MAP_CONFIG = {
 
 FOOTER_CREDITS = [
     {
-        'name':     '', # e.g. 'DataMade'
-        'url':      '', # e.g. 'http://datamade.us'
-        'image':    '', # e.g. 'datamade-logo.png'
+        'name':     'Code4Sac', # e.g. 'DataMade'
+        'url':      'https://codeforsacramento.org/', # e.g. 'http://datamade.us'
+        'image':    'codeforsac-logo.png', # e.g. 'datamade-logo.png'
     },
 ]
 
