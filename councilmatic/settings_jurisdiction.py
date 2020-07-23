@@ -6,7 +6,7 @@
 
 OCD_CITY_COUNCIL_NAME = 'Sacramento City Council'
 CITY_COUNCIL_NAME = 'Sacramento City Council'
-OCD_JURISDICTION_IDS = ['ocd-jurisdiction/country:us/state:ca/place:sacramento/government']
+OCD_JURISDICTION_IDS = ['ocd-jurisdiction/country:us/state:ca/place:sacramento/legislature']
 LEGISLATIVE_SESSIONS = ['2007', '2011', '2015', '2019'] # the last one in this list should be the current legislative session
 CITY_NAME = 'Sacramento'
 CITY_NAME_SHORT = 'Sacramento'
@@ -20,7 +20,7 @@ CITY_VOCAB = {
     'EVENTS': 'Meetings',               # label for the events listing, e.g. 'Events'
 }
 
-APP_NAME = 'city'
+APP_NAME = 'sacramento'
 
 
 #########################

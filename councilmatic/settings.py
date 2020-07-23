@@ -38,8 +38,9 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.postgres',
     # 'debug_toolbar',
-    'haystack',
+    # 'haystack',
     'sacramento',
     'councilmatic_core',
     'opencivicdata.core',
@@ -107,5 +108,11 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_PATH = os.path.join(os.path.dirname(__file__), '..', APP_NAME, 'static')
+
+LOGGING = {
+    'version': 1
+}
+
+HEADSHOT_PATH = './'
 
 HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
