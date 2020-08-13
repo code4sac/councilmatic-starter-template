@@ -5,6 +5,7 @@
 ###############################
 
 OCD_CITY_COUNCIL_NAME = 'Sacramento City Council'
+OCD_CITY_COUNCIL_ID = 'ocd-organization/885c5ce5-2ed1-4d3a-a2fd-c1722b5d1226'
 CITY_COUNCIL_NAME = 'Sacramento City Council'
 OCD_JURISDICTION_IDS = ['ocd-jurisdiction/country:us/state:ca/place:sacramento/legislature']
 LEGISLATIVE_SESSIONS = ['2007', '2011', '2015', '2019'] # the last one in this list should be the current legislative session

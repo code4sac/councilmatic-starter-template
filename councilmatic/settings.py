@@ -116,3 +116,5 @@ LOGGING = {
 HEADSHOT_PATH = './'
 
 HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
+
+OCDAPI_BASE_URL='http://api:8000'
